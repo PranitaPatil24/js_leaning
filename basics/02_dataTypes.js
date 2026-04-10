@@ -51,3 +51,33 @@ console.log(2 + 2);
 console.log(2 - 2);
 console.log(2 ** 2);
 
+console.log("1" + 2)
+console.log("2" + 1)
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+let num1, num2, num3
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter)
+
+//prefix and postfix
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 4n; y2 is 3n
+
+let m = 3;
+const n = ++x;
+// x is 4; y is 4
+
+let m2 = 3n;
+const n2 = ++x2;
+// x2 is 4n; y2 is 4n
+
+
+
