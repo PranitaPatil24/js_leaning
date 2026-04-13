@@ -78,6 +78,51 @@ const n = ++x;
 let m2 = 3n;
 const n2 = ++x2;
 // x2 is 4n; y2 is 4n
+ 
+//Primitive
+// 7 types: String, Number, Boolean, null, undefined, symbol, bigint
 
+//reference (Non- promitive)
+//Array, objects, functions
+
+const heros = ["shaktiman", "pokeman", "hatori"]
+
+let myOBj = {
+    name: "pranita",
+    age: 23,
+}
+
+const myFunction = function(){
+    console.log("hello world");
+}
+
+console.log(typeof myOBj)
+
+const id = Symbol('123')
+
+// ************ memory ******************
+
+//stack (primitive),heap(non primitive)
+
+let ytname = "pnp"
+let anothername = ytname
+
+anothername = "ysk"
+
+console.log(ytname)
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+console.log(userOne.email)
+
+
+let userTwo = userOne 
+
+userTwo.email = "pranita@.com"
+console.log(userOne.email)
+console.log(userTwo.email);
 
 
